@@ -3,9 +3,9 @@
 ## Overview
 
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress.
-The purpose of this statistical analysis was to analyze a series of datasets from AutosRUs. The goal is to apply an understanding from the statistics and hypothesis testing of the production data for the insight to help the manufacturing team. The team has the raw data and the first goal is to effectively analyze the data using ETL (Extract, Transform, and Load) process to 
+The purpose of this statistical analysis was to analyze a series of datasets from AutosRUs. The goal is to apply an understanding from the statistics and hypothesis testing of the production data for the insight to help the manufacturing team. The team has the raw data, and the first goal is to effectively analyze the data using ETL (Extract, Transform, and Load) process to 
 
-All of the statistical analysis and visualizations will be in R programming language using RStudio. The analysis will includes visualizations, statistical tests, and interpretation of the results.
+All the statistical analysis and visualizations will be in R programming language using RStudio. The analysis will include visualizations, statistical tests, and interpretation of the results.
 
 ## Linear Regression to Predict MPG
 
@@ -27,7 +27,7 @@ The multiple r-squared value of this linear model is 0.7149, meaning that roughl
 
 ## Technical Analysis on Suspension Coils
 
-The summary statistics was collected on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots. The summary statistics dataframe showed the following:
+The summary statistics was collected on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots. The summary statistics data frame showed the following:
 
 ![Total_Summary](Resources/Total_Summary.PNG)
 
@@ -42,7 +42,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 One-sample t-tests were performed to determine if all manufacturing lots and each lot individually were statistically different from the population mean of 1500 PSI.
 
-![Lot_Summary](Resporces/Lot_Summary.PNG)
+![Lot_Summary](Resources/Lot_Summary.PNG)
 
 The results of the T-test for the suspension coils for all manufacturing lots showed that they are not statistically different from the population mean of 1500 PSI. 
 The p-value = 0.0603.  Assuming the significance level of 0.05%, it can be stated that there was not sufficient evidence to reject our null hypothesis.
@@ -72,4 +72,4 @@ The hypotheses results are:
 Null: MechaCar shows similar city and highway fuel efficiency to the AutoRUs based on cylinder class.
 Alternative: MechaCar show a higher city and highway fuel efficiency to the AutoRUs based on cylinder class.
 
-To perform these tests a sample of fuel efficiency by cylinder class needs to be gathered for AutoRUs. T-tests should then be completed to show the variance for the populations as a whole. The test should then be run by cylinder class to gather even more specific data to provide to the consumer. The metrics should be publicly available for MechaCar as well as the AutoRUs.
+To perform these tests a sample of fuel efficiency by cylinder class needs to be gathered for AutoRUs. T-tests should then be completed to show the variance for the populations. The test should then be run by cylinder class to gather even more specific data to provide to the consumer. The metrics should be publicly available for MechaCar as well as the AutoRUs.
